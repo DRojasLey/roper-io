@@ -1,0 +1,206 @@
+body {
+
+    background-image: url(bckgrnd2.svg) ;
+    background-size: cover;
+    background-position: 167px -105px ;
+    color: #DFE5FB;
+ }
+
+a {
+    text-decoration: none ;
+    color: #FFEFCA;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+    margin: 0 120px;
+}
+
+
+.top-menu {
+    display: block;
+    color: #FFEFCA;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px ;
+    text-decoration: none ;
+
+}
+
+.top-menu-1 {
+    display: flex;
+    color: #FFEFCA;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px ;
+    text-decoration: none ;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu-element {
+    margin-right: 40px;
+    color: #FFEFCA;
+    display: inline;
+    text-decoration: none ;
+    
+}
+
+.sub-pages-top-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+     
+}
+
+.app-tittle-sub {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px ;
+    text-decoration: none ;
+    color: #FFEFCA;
+}
+
+.app-tittle {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px ;
+    text-decoration: none ;
+    color: #FFEFCA;
+    
+}
+
+.punti-tittle {
+    color: #DA7869;
+}
+
+
+.tittle-tld {
+    color: #F9F871;
+}
+
+.main-sub-tittle {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px ;
+    text-decoration: none ;
+
+}
+
+.subtittle {
+    color: #FFEFCA;
+    font-size: 50px;
+    line-height: 0.5;
+    }
+
+.main-sub-tittle-sub {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px ;
+    text-decoration: none ;
+}
+
+.la-x {
+
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.la-sub-x {
+
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.subtittle span {
+    margin: 0 5px;
+}
+
+
+
+h1, h3 {
+    margin: 0;
+}
+
+
+/*Card styles*/
+
+.card-style1 {
+    background-color: rgb(68 69 89 / 33%) ;
+    border-radius: 25px;
+    display: flex;
+    margin: 10px 120px 0 120px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card-title-single-style {
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.card-paragraph-style {
+    font-family: "Harmattan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 12px 5px 12px;
+}
+
+.call-to-act-button {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.card-style2 {
+    background-color: rgb(0 0 0 / 33%) ;
+    border-radius: 25px;
+    display: flex;
+    margin: 10px 120px 0 120px;
+    flex-direction: column;
+    justify-content: center;
+}
