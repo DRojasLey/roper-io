@@ -247,19 +247,28 @@ button:hover {
 
 }
 
-.menu-element-bot {
-    margin-right: 40px;
-    color: #FFEFCA;
-    display: inline;
-    text-decoration: none ;
-    
-}
-
 .bottom-menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     font-family: "Hubballi", sans-serif;
     font-weight: 400;
+    font-size: 25px;
     font-style: normal;
+    align-items: center;
+    margin: auto;
+}
+.menu-element-bot {
+    justify-content: space-evenly;
+    color: #FFEFCA;
+    display: flex;
+    text-decoration: none ;
+    margin: 10px;
+}
+
+.Copyright {
+    font-family: "Harmattan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #DA786970;
 }
