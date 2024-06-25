@@ -19,6 +19,10 @@ header {
     margin: 0 120px;
 }
 
+p {
+    margin: 0;
+}
+
 
 .top-menu {
     display: block;
@@ -167,6 +171,8 @@ h1, h3 {
     margin: 10px 120px 0 120px;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
     
 }
 
@@ -187,14 +193,41 @@ h1, h3 {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin: 5px 12px 5px 12px;
+    margin: 5px 50px 5px 50px;
 }
 
-.call-to-act-button {
+.card-paragraph-style2 {
+    font-family: "Harmattan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    border-radius: 50%;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+    flex-direction: column;
+    align-items: center;
 }
+
+button:hover {
+    background-color: white, 50%;
+}
+.call-to-act-button {
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 25px;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    margin-top: 0;
+    background-color: #F9F87150;
+    color: #DFE5FB;
+    font-family: "Harmattan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}    
+
 
 .card-style2 {
     background-color: rgb(0 0 0 / 33%) ;
@@ -203,4 +236,5 @@ h1, h3 {
     margin: 10px 120px 0 120px;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 50px;
 }
