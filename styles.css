@@ -238,3 +238,28 @@ button:hover {
     justify-content: center;
     padding-bottom: 50px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu-element-bot {
+    margin-right: 40px;
+    color: #FFEFCA;
+    display: inline;
+    text-decoration: none ;
+    
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
